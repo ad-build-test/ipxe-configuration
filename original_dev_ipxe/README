@@ -1,0 +1,2 @@
+This directory is just a copy of the ipxe files that already exist on the $TFTPBOOT/linuxRT/boot/ipxe
+This is used for parsing to generate the YAML for the first time without doing it manually

@@ -1,0 +1,14 @@
+#!ipxe
+
+# Runningin prod as of 11/15/2017
+#set vers 3.2.13-121108
+
+# K.Luchini: Testing 2022 - use with epics V7
+#set vers buildroot-2019.08-2-i686
+set vers buildroot-2019.08-i686-anle-test
+#set vers buildroot-2019.08-i686-lorelli-test
+#set vers buildroot-2016.11.1-i686-lorelli-test
+#set vers buildroot-2019.08-i686-jmpdude-test
+
+
+

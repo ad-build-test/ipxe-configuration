@@ -1,0 +1,17 @@
+#!ipxe
+
+# Based on uclibc (32-bit or 64-bit):
+#set vers 3.14.12-rt9_x86
+#set vers 3.14.12-rt9_x86_64
+
+
+# Based on glibc (32-bit or 64-bit):
+#set vers 3.14.12-rt9_x86_glibc
+set vers 3.14.12-rt9_x86_64_glibc
+
+
+# Real-Time Cyclic Test
+#set vers 3.14.12-rt9_x86_64_glibc-dev
+
+set extra-args brd.rd_size=524288 
+
