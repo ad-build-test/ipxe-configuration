@@ -1,11 +1,7 @@
-""" 
-This script parses the original .ipxe files manually created by users, and puts
-it into a yaml file.
-This script is for temporary use, once the main ipxe_config.yaml has been
-created, this script won't need to be ran """
+# Parse files
 import argparse
 import os
-import yaml  
+import yaml  # Ensure you have PyYAML installed: pip install pyyaml
 
 def find_lines_in_directory(directory_path, keywords, second_keywords):
     results = {}
@@ -114,19 +110,14 @@ def generate_files_from_yaml(yaml_file_path, output_directory):
         print(f"Generated file: {file_path}")
 
 def main():
-    # TODO: Get the ipxe from the other facilities lcls, facet etc. Then
-        # Try this script and the extra_code.py on those, and merge all the ipxe into one ipxe_config.yaml
-        # And add a parent facility field like:
-            # lcls:
-                # Node-name:
+    # TODO: Won't need argparse once the configuration file has been made, since it'll be at the $TOP of dir
     parser = argparse.ArgumentParser()
-    parser.add_argument("dir_path", help="directory path to ipxe files to parse",
+    parser.add_argument("yaml_file", help="path to configuration yaml file",
                         type=str)
     args = parser.parse_args()
-    parse_original_ipxe_and_output_to_yaml(args.dir_path)
 
-    parse_output_yaml_file_test(args.dir_path)
-
+    # TODO: Run this multiple times, or split into different directories, can do logic
+    # with every new facility create a folder 'generated_<facility>_ipxe'
     generate_files_from_yaml(args.dir_path + 'node_versions_and_args.yaml', 'generated_dev_ipxe')
 
 
