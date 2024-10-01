@@ -1,0 +1,4 @@
+#!ipxe
+set vers 3.2.13-test
+
+set extra-args  MPRT=12049 NPRT=12048 BOOTFILE=tftp://10.0.2.2/linuxRT/boot/qemu/inimnt.sh

@@ -1,0 +1,9 @@
+#!ipxe
+# ===============================================================
+# Supports linux kernel = 
+# Used with EPICS BASE Version = R7.0.3.1-1.0
+# Embedded linuxRT for 32-bit Arch 
+# ===============================================================
+set vers buildroot-2019.08-3-i686
+
+
