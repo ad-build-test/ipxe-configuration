@@ -1,0 +1,25 @@
+#!ipxe
+
+# ===============================================================
+# Latest Stable version:
+# Supports linux kernel = 3.18.11-rt7_x86_64
+# Used with EPICS BASE Version = base-R3-14-12-4_1-1
+# Embedded linuxRT for 64-bit Arch = buildroot-2015.02-x86_64
+# ===============================================================
+set vers 3.18.11-rt7_x86_64
+
+
+# ======================================================================
+# Most kernel startup options are specified in the DHCP Server Config
+# ======================================================================
+set extra-args brd.rd_size=524288 
+
+# Note:
+# This linuxRT kernel displays output to the 
+# serial port by default.
+# To add support for linux to display to a VGA monitor add:
+# console=tty0 to the list "extra-args" above
+# In addition, we need to tell this version of our linuxRT
+# buildroot kernel to display console messages to the serial
+# port as well. The BIOS on this computer is set for 
+# 9600n8 add: console=ttyS0,9600n8 to the list "extra-args" above

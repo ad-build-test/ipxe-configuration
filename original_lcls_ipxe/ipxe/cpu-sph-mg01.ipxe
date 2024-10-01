@@ -1,0 +1,22 @@
+#!ipxe
+
+# ===============================================================
+# Latest Stable version:
+# Supports linux kernel = 4.8.11-rt7
+# Used with EPICS BASE Version = R7.0.3.1-1.0
+# Embedded linuxRT for 64-bit Arch 
+# ===============================================================
+set vers buildroot-2019.08-2-x86_64
+
+# ======================================================================
+# Most kernel startup options are specified in the DHCP Server Config
+# ======================================================================
+set extra-args brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+
+# Note:
+# Our linuxRT kernel displays output to the serial port by default.
+# To add support for linux to display to a VGA monitor add:
+# console=tty0 to the list "extra-args" above
+
+
+

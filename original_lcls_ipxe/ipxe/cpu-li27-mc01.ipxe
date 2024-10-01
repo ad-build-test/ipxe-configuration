@@ -1,0 +1,10 @@
+#!ipxe
+
+# Let's use glibc linuxRT for x86_64 CPU
+#set vers 3.18.11-rt7_x86_64
+set vers buildroot-2019.08-2-x86_64
+
+
+# The BIOS on the Industrial PCs want the "brd.rd_size" parameter:
+set extra-args brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+
