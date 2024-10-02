@@ -60,6 +60,7 @@ def parse_original_ipxe_and_output_to_yaml(dir_path: str):
     # Output to a YAML file
     output_file = dir_path + '/node_versions_and_args.yaml'  # Specify your output YAML file name
     with open(output_file, 'w') as yaml_file:
+        yaml_file.write("## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##\n")
         yaml.dump(node_versions_and_args_dict, yaml_file)
 
     print(f"Results have been written to {output_file}.")
@@ -123,11 +124,14 @@ def main():
     parser.add_argument("dir_path", help="directory path to ipxe files to parse",
                         type=str)
     args = parser.parse_args()
-    parse_original_ipxe_and_output_to_yaml(args.dir_path)
+    dir_path = args.dir_path
+    if (dir_path.endswith('/')): # Remove the '/'
+        dir_path = dir_path[:-1]
+    parse_original_ipxe_and_output_to_yaml(dir_path)
 
-    parse_output_yaml_file_test(args.dir_path)
+    # parse_output_yaml_file_test(dir_path)
 
-    generate_files_from_yaml(args.dir_path + 'node_versions_and_args.yaml', 'generated_dev_ipxe')
+    # generate_files_from_yaml(dir_path + '/node_versions_and_args.yaml', 'generated_dev_ipxe')
 
 
 if __name__ == '__main__':

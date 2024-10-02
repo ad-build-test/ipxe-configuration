@@ -1,4 +1,4 @@
-""" Identical to the parse_original_ipxe.py except this one checks
+""" Similar to the parse_original_ipxe.py except this one checks
 for other lines that aren't comments, and aren't set vers or extra-args
 """
 # Parse files
@@ -62,7 +62,7 @@ def find_lines_in_directory(directory_path, keywords, second_keywords):
 
     return results
 
-def parse_original_ipxe_and_output_to_yaml(dir_path: str):
+def parse_original_ipxe(dir_path: str):
     # Find node and their buildroot versions
     keywords = ['set', 'vers']  # Replace with the list of known words
     second_keywords = ['set', 'extra-args']  # Replace with the list of known words
@@ -75,7 +75,7 @@ def main():
     parser.add_argument("dir_path", help="directory path to ipxe files to parse",
                         type=str)
     args = parser.parse_args()
-    parse_original_ipxe_and_output_to_yaml(args.dir_path)
+    parse_original_ipxe(args.dir_path)
 
 
 if __name__ == '__main__':
