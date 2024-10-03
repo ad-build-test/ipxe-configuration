@@ -2,8 +2,6 @@
 # Usage: ansible-playbook deployment.yaml -i ipxe_inventory.ini
 - name: Deploy app, and update envPaths
   hosts: all
-  # All vars from ioc_deploy.yml are accessible
-  gather_facts: no
   tasks:
   # Assuming you are deploying from dev where you have all the generated ipxe files
   # TODO: But i think want to deploy from artifact storage right?

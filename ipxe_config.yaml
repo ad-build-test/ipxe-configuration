@@ -4,10 +4,13 @@
 #
 #  Name:  ipxe_config.yaml
 #
-#  Rem:   This file is read by the python script generate_ipxe_from_config.py
+#  Rem:   This file is read by the python script generate_ipxe_files_from_config.py
 #         to generate the .ipxe files for the different cpus
 #
-#  Usage:  When done editing, save, then please run script generate_ipxe_from_config.py
+#  Usage:  When done editing, save, then please run script generate_ipxe_files_from_config.py
+#          Fields available to use (ensure no typo in field name):
+#           extra-args
+#           version
 #
 #  Facility: SLAC Controls (Development)
 #
@@ -59,9 +62,7 @@
 # ===============================================================
 # set vers 3.2.13-121108
 
-# TODO: TEmporary:
-# 1. Does order matter, like does it have to be set vers then extra-args? Right now its in alphabetical order
-# 2. see questions on github issues
+# TODO: TEmporary: see questions on github issues
 
 ##################################################
 #                                                #
@@ -70,7 +71,7 @@
 ##################################################
 ---
 dev:
-  ## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+  ## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
   b221-cpu1:
     extra-args: brd.rd_size=524288
     version: buildroot-2019.08-x86_64
@@ -328,7 +329,7 @@ dev:
 #                                                #
 ##################################################
 lcls:
-  ## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+  ## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
   cpu-bc1b-mg01:
     version: buildroot-2019.08-2-i686
   cpu-bc1b-mg02:
@@ -1096,7 +1097,7 @@ lcls:
 #                                                #
 ##################################################
 facet:
-  ## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+  ## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
   cpu-bc1b-mg01:
     version: buildroot-2019.08-2-i686
   cpu-bc1b-mg02:
@@ -1864,7 +1865,7 @@ facet:
 #                                                #
 ##################################################
 testfac:
-  ## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+  ## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
   b221-cpu1:
     extra-args: brd.rd_size=524288
     version: buildroot-2019.08-x86_64

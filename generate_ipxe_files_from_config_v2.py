@@ -1,9 +1,15 @@
 """
+WIP - not sure if this script is necessary
+Same as generate_ipxe_files_from_config.py, except this one only generates ipxe files
+for the nodes that changed configuration
 Generates all the ipxe files from the ipxe_config.yaml, into seperate directories
 for each facility
 """
 import os
 import yaml
+
+IPXE_CONFIG_PATH="ipxe_config.yaml"
+PREVIOUS_IPXE_CONFIG_PATH="previous_ipxe_config.yaml" # This is the last known ipxe config used for comparison
 
 def parse_yaml_file(file_path): 
     try:
@@ -13,7 +19,12 @@ def parse_yaml_file(file_path):
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
         return None
+    
+def check_config_changes(current_config, previous_config):
+    current_config_data = parse_yaml_file(current_config)
+    previous_config_data = parse_yaml_file(previous_config)
 
+    
 def generate_files_from_yaml(yaml_file_path):
     parsed_data = parse_yaml_file(yaml_file_path)
 
@@ -28,23 +39,27 @@ def generate_files_from_yaml(yaml_file_path):
             with open(file_path, 'w') as output_file:
                 output_file.write("#!ipxe\n\n")
                 for field, value in fields.items():
-                    if (field == 'version'):
+                    if (field.lower() == 'version'):
                         output_file.write(f"set vers {value}\n")
-                    elif (field == 'extra-args'):
+                    elif (field.lower() == 'extra-args'):
                         output_file.write(f"set extra-args {value}\n")
                     else:
-                        print(f"Error in yaml {yaml_file_path}* incorrect field found: {field}, value: {value}, at node: {node_name}, in facility: {facility}")
+                        print(f"Error in yaml {yaml_file_path}* incorrect field found: {field}, value: {value}, at cpu: {cpu}, in facility: {facility}")
             
             print(f"Generated file: {file_path}")
 
 def main():
-    generate_files_from_yaml('ipxe_config.yaml')
+    check_config_changes(IPXE_CONFIG_PATH, PREVIOUS_IPXE_CONFIG_PATH)
+    generate_files_from_yaml(IPXE_CONFIG_PATH)
 
 if __name__ == '__main__':
     main()
-
 # TODO: only regenerate the files for cpus that changed its fields, don't want to regenerate 
         # everything each time the config file changes. 
+        # ACTUALLY: I think its fine if we just regenerate everything, because ansible is idempotent
+    # even if the file is new, if the contents are the same, it won't copy it over. So it doesn't
+    # hurt to regenerate, but maybe its better not to regenerate all to avoid any blaming 'oh it worked
+    # before you generated new ipxe files' 
         # 1) When this script is ran just copy the current standing ipxe_config.yaml as previous_ipxe_config.yaml
         # 2) Then compare the standing ipxe_config.yaml to previous_ipxe_config.yaml and do a delta
 

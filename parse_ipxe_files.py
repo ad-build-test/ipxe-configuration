@@ -1,8 +1,11 @@
 """ 
-This script parses the original .ipxe files manually created by users, and puts
-it into a yaml file.
-This script is for temporary use, once the main ipxe_config.yaml has been
-created, this script won't need to be ran """
+Desc: 
+    This script parses ipxe files and puts it into a yaml file. Non-destructive,
+    does not alter existing ipxe files
+
+Usage:
+    python3 parse_ipxe_files.py <dir>
+"""
 import argparse
 import os
 import yaml  
@@ -50,7 +53,7 @@ def find_lines_in_directory(directory_path, keywords, second_keywords):
 
     return results
 
-def parse_original_ipxe_and_output_to_yaml(dir_path: str):
+def parse_ipxe_files_and_output_to_yaml(dir_path: str):
     # Find node and their buildroot versions
     keywords = ['set', 'vers']  # Replace with the list of known words
     second_keywords = ['set', 'extra-args']  # Replace with the list of known words
@@ -60,7 +63,7 @@ def parse_original_ipxe_and_output_to_yaml(dir_path: str):
     # Output to a YAML file
     output_file = dir_path + '/node_versions_and_args.yaml'  # Specify your output YAML file name
     with open(output_file, 'w') as yaml_file:
-        yaml_file.write("## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##\n")
+        yaml_file.write("## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##\n")
         yaml.dump(node_versions_and_args_dict, yaml_file)
 
     print(f"Results have been written to {output_file}.")
@@ -90,36 +93,8 @@ def parse_output_yaml_file_test(dir_path: str):
     else:
         print("No data to display.")
 
-def generate_files_from_yaml(yaml_file_path, output_directory):
-    parsed_data = parse_yaml_file(yaml_file_path)
-
-    # Ensure output directory exists
-    os.makedirs(output_directory, exist_ok=True)
-
-    # Iterate over each entry in the YAML data
-    for node_name, details in parsed_data.items():
-        file_name = f"{node_name}.ipxe"  # Create a file name based on the entry
-        file_path = os.path.join(output_directory, file_name)
-
-        # Write the specified lines into the file
-        with open(file_path, 'w') as output_file:
-            output_file.write("#!ipxe\n")
-            for key, value in details.items():
-                if (key == 'version'):
-                    output_file.write(f"set vers {value}\n")
-                elif (key == 'extra-args'):
-                    output_file.write(f"set extra-args {value}\n")
-                else:
-                    print(f"Error in yaml {yaml_file_path}* incorrect key found: {key}, value: {value}, at node: {node_name}")
-
-        print(f"Generated file: {file_path}")
 
 def main():
-    # TODO: Get the ipxe from the other facilities lcls, facet etc. Then
-        # Try this script and the extra_code.py on those, and merge all the ipxe into one ipxe_config.yaml
-        # And add a parent facility field like:
-            # lcls:
-                # Node-name:
     parser = argparse.ArgumentParser()
     parser.add_argument("dir_path", help="directory path to ipxe files to parse",
                         type=str)
@@ -127,12 +102,9 @@ def main():
     dir_path = args.dir_path
     if (dir_path.endswith('/')): # Remove the '/'
         dir_path = dir_path[:-1]
-    parse_original_ipxe_and_output_to_yaml(dir_path)
+    parse_ipxe_files_and_output_to_yaml(dir_path)
 
     # parse_output_yaml_file_test(dir_path)
-
-    # generate_files_from_yaml(dir_path + '/node_versions_and_args.yaml', 'generated_dev_ipxe')
-
 
 if __name__ == '__main__':
     main()

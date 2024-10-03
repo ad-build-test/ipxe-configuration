@@ -1,4 +1,4 @@
-## Generated file from parse_original_ipxe.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
 cpu-bc1b-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bc1b-mg02:
