@@ -6,84 +6,84 @@ cpu-bc1b-mg02:
 cpu-bc1b-mg03:
   version: buildroot-2019.08-2-i686
 cpu-bc1b-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bc1b-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bc1b-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bc2b-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bc2b-mg02:
   version: buildroot-2019.08-2-i686
 cpu-bc2b-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bc2b-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bc2b-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn13-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn14-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn15-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn16-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn17-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bpn17-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn18-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn19-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn20-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn21-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bpn21-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn22-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn23-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn24-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn25-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bpn25-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn26-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn27-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn28-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bpn28-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bsy0-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bsy0-mg02:
@@ -97,119 +97,119 @@ cpu-bsy0-mg05:
 cpu-bsy0-mg06:
   version: buildroot-2019.08-2-i686
 cpu-bsyh-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bsyh-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bsys-mg01:
   version: buildroot-2019.08-2-i686
 cpu-bsys-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-bsys-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-col0-mg01:
   version: buildroot-2019.08-2-i686
 cpu-col0-mg02:
   version: buildroot-2019.08-2-i686
 cpu-col0-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dasel-mg01:
   version: buildroot-2019.08-2-i686
 cpu-dasel-mg02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dasel-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-diag0-mg01:
   version: buildroot-2019.08-2-i686
 cpu-diag0-mg02:
   version: buildroot-2019.08-2-i686
 cpu-diag0-mg03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-diag0-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dmp0-rf01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dmph-mg01:
   version: buildroot-2019.08-2-i686
 cpu-dmph-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dmps-mg01:
   version: buildroot-2019.08-2-i686
 cpu-dmps-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-mg01:
   version: buildroot-2019.08-2-i686
 cpu-dog-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-dog-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ext-mg01:
   version: buildroot-2019.08-2-i686
 cpu-ext-mg02:
   version: buildroot-2019.08-2-i686
 cpu-feeh-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-fees-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-gunb-mc01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-gunb-mg01:
   version: buildroot-2019.08-2-i686
 cpu-gunb-mg02:
   version: buildroot-2019.08-2-i686
 cpu-gunb-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-gunb-rf01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-gunb-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-gunb-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-htr-mg01:
   version: buildroot-2019.08-2-i686
 cpu-htr-mg02:
   version: buildroot-2019.08-2-i686
 cpu-htr-pm02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-htr-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-in10-ls01:
-  extra-args: brd.rd_size=524288 BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-in10-ls01/startup.cmd
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-in10-ls01/startup.cmd
 cpu-in10-mg01:
   version: buildroot-2019.08-3-i686
 cpu-in10-mg02:
@@ -217,14 +217,14 @@ cpu-in10-mg02:
 cpu-in10-mg03:
   version: buildroot-2019.08-3-i686
 cpu-in10-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-in10-pm01/startup.cmd
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-in10-pm01/startup.cmd
 cpu-in10-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
-cpu-in20-mc01:
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+cpu-in20-mc01:
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-in20-mg01:
   version: buildroot-2019.08-2-i686
 cpu-in20-mg02:
@@ -234,227 +234,227 @@ cpu-in20-mg03:
 cpu-in20-mg04:
   version: buildroot-2019.08-2-i686
 cpu-in20-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l0b-rf01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l0b-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l0b-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l0b-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l1b-rf02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l1b-rf03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l1b-rfh1:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l1b-rfh2:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf06:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf07:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf08:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf09:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf10:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf11:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf12:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf13:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf14:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-rf15:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l2b-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf16:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf17:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf18:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf19:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf20:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf21:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf22:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf23:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf24:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf25:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf26:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf27:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf28:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf29:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf30:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf31:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf32:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf33:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf34:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-rf35:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-l3b-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-lgun-ls01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-lgun-ls02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-lgun-ls10:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-lgun-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-lhtr-ls10:
+  version: buildroot-2019.08-2-x86_64
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer console=ttyS0
-  version: buildroot-2019.08-2-x86_64
 cpu-li10-ky01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li10-ky02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li10-ky03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li10-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
-cpu-li11-ky01:
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+cpu-li11-ky01:
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li11-mg01:
   version: buildroot-2019.08-3-i686
 cpu-li11-mg02:
   version: buildroot-2019.08-3-i686
 cpu-li11-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li14-mg01:
   version: buildroot-2019.08-3-i686
 cpu-li14-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li14-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li15-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-ms01:
+  version: buildroot-2019.08-2-x86_64
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer console=ttyS0
-  version: buildroot-2019.08-2-x86_64
 cpu-li20-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-pm02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-pm03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-pm04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-pm07:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-pm08:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li20-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-3-x86_64
-cpu-li21-mc01:
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+cpu-li21-mc01:
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li21-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li21-mg02:
@@ -462,43 +462,43 @@ cpu-li21-mg02:
 cpu-li21-mg03:
   version: buildroot-2019.08-2-i686
 cpu-li21-mg04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li21-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li22-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li22-mg02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li23-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li24-mc01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li24-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li24-mg02:
   version: buildroot-2019.08-2-i686
 cpu-li24-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li25-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li26-ky03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2016.11.1-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li26-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li27-mc01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li27-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li28-mc01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-li28-mg01:
   version: buildroot-2019.08-2-i686
 cpu-li29-mg01:
@@ -506,17 +506,17 @@ cpu-li29-mg01:
 cpu-li30-mg01:
   version: buildroot-2019.08-2-i686
 cpu-lr10-ls01:
+  version: buildroot-2019.08-x86_64
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-lr10-ls01/startup.cmd
-  version: buildroot-2019.08-x86_64
 cpu-lr10-ls02:
-  extra-args: brd.rd_size=524288 BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-lr10-ls02/startup.cmd
   version: buildroot-2019.08-3-x86_64
+  extra-args: brd.rd_size=524288 BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-lr10-ls02/startup.cmd
 cpu-lr10-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-lr10-pm01/startup.cmd
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer BOOTFILE=/usr/local/facet/epics/iocCommon/cpu-lr10-pm01/startup.cmd
 cpu-lr20-ls01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltuh-mg01:
   version: buildroot-2019.08-2-i686
 cpu-ltuh-mg02:
@@ -528,20 +528,20 @@ cpu-ltuh-mg04:
 cpu-ltuh-mg05:
   version: buildroot-2019.08-2-i686
 cpu-ltuh-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltuh-pm02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltuh-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltuh-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltuh-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltus-mg01:
   version: buildroot-2019.08-2-i686
 cpu-ltus-mg02:
@@ -551,104 +551,104 @@ cpu-ltus-mg03:
 cpu-ltus-mg04:
   version: buildroot-2019.08-2-i686
 cpu-ltus-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltus-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltus-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-ltus-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sltd-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-spd-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-spd-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-spd-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-spd-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-spd-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-mg01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sph-sp06:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-mg01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sps-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-ck00:
+  version: buildroot-2019.08-x86_64
   extra-args: brd.rd_size=524288
-  version: buildroot-2019.08-x86_64
 cpu-sys0-fb01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-fb02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288
 cpu-sys0-fb03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-mp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-mp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-mp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-sys0-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
-cpu-template-2016:
   extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+cpu-template-2016:
   version: buildroot-2016.11.1-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-template-2019-32bit:
   version: buildroot-2019.08-2-i686
 cpu-undh-mg01:
@@ -680,29 +680,29 @@ cpu-undh-mg13:
 cpu-undh-mg14:
   version: buildroot-2019.08-2-i686
 cpu-undh-pm01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp06:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-undh-sp07:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-mg01:
   version: buildroot-2019.08-2-i686
 cpu-unds-mg02:
@@ -730,32 +730,32 @@ cpu-unds-mg12:
 cpu-unds-mg13:
   version: buildroot-2019.08-2-i686
 cpu-unds-sp01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-sp02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-sp03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-sp04:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-sp05:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unds-sp06:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unrh-ex01:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unrh-ex02:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 cpu-unrh-ex03:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
 template:
-  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
   version: buildroot-2019.08-2-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer

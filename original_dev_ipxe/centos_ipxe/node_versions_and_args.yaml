@@ -1,0 +1,68 @@
+## Generated file from parse_ipxe_files.py - meant to be inspected then copied over to main ipxe-config.yaml at TOP of repo ##
+cpu-b084-sp18:
+  version: buildroot-2019.08-x86_64
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+cpu-b15-rf02:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-pm01:
+  version: centos7-2
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-pm02:
+  version: centos7-2
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-sp02:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-test4:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-test8:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+cpu-b34-test9:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell
+template:
+  version: centos7
+  extra-args: brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer
+  additional: |
+    kernel --name linux tftp://${next-server}/boot/linux/${vers}/vmlinuz-3.10.0-1160.53.1.el7.x86_64 && initrd tftp://${next-server}/boot/linux/${vers}/CentOs7_Lite_dev_fs.cpio.gz || shell
+    imgargs linux debug idle=halt root=/dev/ram0 console=ttyS0,115200 BOOTIF_MAC=${net0/mac:hex} ${extra-args} ||
+    boot ||
+    shell

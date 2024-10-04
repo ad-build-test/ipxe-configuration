@@ -44,7 +44,7 @@ def compare_dicts(generated_config, current_config):
         print(diff)
 
 def main():
-    # TODO: use the parse_ipxe_files script to parse the generated folders, create a config yaml, 
+    # use the parse_ipxe_files script to parse the generated folders, create a config yaml, 
         # Then compare that yaml to the actual config.yaml to ensure they're a match
     generated_config = get_generated_config_dict()
     current_config = parse_ipxe_files.parse_yaml_file(IPXE_CONFIG_PATH)

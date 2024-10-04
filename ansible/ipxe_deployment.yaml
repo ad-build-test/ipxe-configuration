@@ -1,6 +1,6 @@
 # Please use ipxe_inventory.ini
 # Usage: ansible-playbook deployment.yaml -i ipxe_inventory.ini
-- name: Deploy app, and update envPaths
+- name: Deploy app
   hosts: all
   tasks:
   # Assuming you are deploying from dev where you have all the generated ipxe files

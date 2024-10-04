@@ -1,0 +1,25 @@
+# Build YAML
+format: 1
+
+repo: ipxe-configuration
+organization: ad-build-test
+
+# Build Script for building the component
+build: generate_ipxe_files_from_config.py
+
+# Deployment Playbook for deploying the component [optional]
+deploy: ipxe_deployment.yaml
+
+# Environments this app runs on
+environments:
+  - rocky9
+  - rhel7
+
+# dependencies this app needs built
+# component: tag name
+# dependencies:
+#   - epics-base: R7.0.3.1-1.0
+#   - asyn: R4.39-1.0.1
+
+# Python packages list
+python: requirements.txt

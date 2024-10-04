@@ -53,10 +53,6 @@ def find_lines_in_directory(directory_path, keywords, second_keywords):
                         else:
                             print(f"** Found non-comment line that isn't set vers or extra-args in file: {filename} **")
                             print(stripped_line)
-                        
-                        # Break if both lines are found
-                        if len(results[node_name]) == 2:
-                            break
             
             except Exception as e:
                 print(f"Could not read {filename}: {e}")
@@ -74,7 +70,6 @@ def parse_ipxe_files(dir_path: str):
     second_keywords = ['set', 'extra-args']  # Replace with the list of known words
 
     node_versions_and_args_dict = find_lines_in_directory(dir_path, keywords, second_keywords)
-
 
 def main():
     parser = argparse.ArgumentParser()

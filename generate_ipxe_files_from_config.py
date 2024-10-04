@@ -39,6 +39,8 @@ def generate_files_from_yaml(yaml_file_path):
                         output_file.write(f"set vers {value}\n")
                     elif (field.lower() == 'extra-args'):
                         output_file.write(f"set extra-args {value}\n")
+                    elif (field.lower() == 'additional'):
+                        output_file.write(f"{value}\n")
                     else:
                         print(f"Error in yaml {yaml_file_path}* incorrect field found: {field}, value: {value}, at cpu: {cpu}, in facility: {facility}")
             
