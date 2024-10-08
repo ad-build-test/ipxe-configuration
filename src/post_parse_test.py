@@ -12,12 +12,12 @@ Usage:
 import parse_ipxe_files
 from deepdiff import DeepDiff
 
-IPXE_CONFIG_PATH="ipxe_config.yaml"
+IPXE_CONFIG_PATH="../ipxe_config.yaml"
 GENERATED_IPXE_FOLDERS = {
-    "dev": "generated_dev_ipxe_files",
-    "facet": "generated_facet_ipxe_files",
-    "lcls": "generated_lcls_ipxe_files",
-    "testfac": "generated_testfac_ipxe_files"
+    "dev": "../build_results/generated_dev_ipxe_files",
+    "facet": "../build_results/generated_facet_ipxe_files",
+    "lcls": "../build_results/generated_lcls_ipxe_files",
+    "testfac": "../build_results/generated_testfac_ipxe_files"
 }
 
 def get_generated_config_dict() -> dict:

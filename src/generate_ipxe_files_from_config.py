@@ -10,7 +10,7 @@ import os
 import yaml
 import post_parse_test
 
-IPXE_CONFIG_PATH="ipxe_config.yaml"
+IPXE_CONFIG_PATH="../ipxe_config.yaml"
 
 def parse_yaml_file(file_path): 
     try:
@@ -26,7 +26,7 @@ def generate_files_from_yaml(yaml_file_path):
 
     for facility, cpus in parsed_data.items():
         # Create a directory for each facility
-        facility = 'generated_' + facility + '_ipxe_files'
+        facility = '../build_results/generated_' + facility + '_ipxe_files'
         os.makedirs(facility, exist_ok=True)
         
         for cpu, fields in cpus.items():
