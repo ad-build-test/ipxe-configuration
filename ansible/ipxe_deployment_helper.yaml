@@ -1,0 +1,35 @@
+# Please use ipxe_inventory.ini
+# Usage: ansible-playbook --extra-vars "source=../build_results/generated_dev_ipxe_files" -i ipxe_inventory.ini -l S3DF ipxe_deployment.yaml
+
+# - name: Deploy app
+#   hosts: all
+#   tasks:
+#   # Assuming you are deploying from dev where you have all the generated ipxe files
+#   # TODO: But i think want to deploy from artifact storage right?
+
+#   # Ansible is idempotent, the copy task will only copy files over if it doesn't exist
+#   # or if the file contents changed, it does this by comparing the checksum of the src
+#   # and the dest file, this is also recursivly done if you specify a directory
+#   # as the src instead of a file
+#   - name: Deploy changed files
+#     hosts: all
+#     tasks:
+#       - name: Deploy files from the specified folder
+#         copy:
+#           src: "{{ generated_ipxe_folder }}/"
+#           dest: "{{ ipxe_release_folder }}"
+
+---
+  - name: "Confirm {{ file.path }}"
+    pause:
+      prompt: "Do you want to continue with copying file {{ file.path }}? (yes/no)"
+    register: user_confirmation
+
+  - name: "Copy {{ file.path }} to {{ ipxe_release_folder }}"
+    copy:
+      src: "{{ file.path }}"
+      dest: "{{ ipxe_release_folder }}"
+    when: user_confirmation.user_input == 'yes'
+    
+
+
