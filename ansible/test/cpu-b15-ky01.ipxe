@@ -1,4 +1,0 @@
-#!ipxe
-
-set vers buildroot-2019.08-2-x86_64
-set extra-args brd.rd_size=524288 pcie_aspm.policy=performance pci=noaer

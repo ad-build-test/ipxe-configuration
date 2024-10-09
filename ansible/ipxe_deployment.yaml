@@ -2,37 +2,20 @@
 # Usage: ansible-playbook --extra-vars "source=../build_results/generated_dev_ipxe_files" -i ipxe_inventory.ini -l S3DF ipxe_deployment.yaml
 
 ---
-- name: Deploy ipxe app
+- name: Deploy app
   hosts: all
-  gather_facts: no
-  vars:
-    generated_ipxe_directory: "{{ source }}"
-
   tasks:
-    - name: Get list of files in the source directory
-      find:
-        paths: "{{ generated_ipxe_directory }}"
-        file_type: file
-      register: found_files
+  # Assuming you are deploying from dev where you have all the generated ipxe files
+  # TODO: But i think want to deploy from artifact storage right?
 
-    - name: Deploy
-      ansible.builtin.include_tasks: ipxe_deployment_helper.yaml
-      loop: "{{ found_files.files }}"
-      loop_control:
-        loop_var: file
-      no_log: true
+  # Ansible is idempotent, the copy task will only copy files over if it doesn't exist
+  # or if the file contents changed, it does this by comparing the checksum of the src
+  # and the dest file, this is also recursivly done if you specify a directory
+  # as the src instead of a file
+  - name: 'Deploy files at {{ source }} from the specified folder {{ ipxe_release_folder }}'
+    copy:
+      src: "{{ source }}/"
+      dest: "{{ ipxe_release_folder }}"
 
-# TODO: Not legal - looping over block, instead make a seperate playbook
-    # - name: Prompt user for confirmation
-    #   pause:
-    #     prompt: "Do you want to continue with copying files? (yes/no)"
-    #   register: user_confirmation
-
-    # - name: Copy files to destination
-    #   copy:
-    #     src: "{{ item }}"
-    #     dest: "{{ ipxe_release_folder }}"
-    #   loop: "{{ found_files.files | map(attribute='path') | list }}"
-    #   when: user_confirmation.user_input == 'yes'
 
 
