@@ -7,8 +7,10 @@ Usage:
     python3 generate_ipxe_files_from_config.py
 """
 import os
+import shutil
 import yaml
 import post_parse_test
+
 
 IPXE_CONFIG_PATH="../ipxe_config.yaml"
 
@@ -23,6 +25,10 @@ def parse_yaml_file(file_path):
 
 def generate_files_from_yaml(yaml_file_path):
     parsed_data = parse_yaml_file(yaml_file_path)
+    build_results = '../build_results'
+    # Delete existing build results
+    if os.path.exists(build_results) and os.path.isdir(build_results):
+        shutil.rmtree(build_results)
 
     for facility, cpus in parsed_data.items():
         # Create a directory for each facility
